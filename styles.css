@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937; 
+}
+.header-logo{
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    font-size: 48px;
+    align-self: center;
+    padding: 20px;
+} 
+.header ul{
+    display: flex;
+    color: #F9FAF8;
+    list-style: none;
+}
+.links{
+    margin: 20px;
+    font-size: 24px;
+}
+.footer{
+    background-color: #1F2937;
+}
+
+.body{
+    display: flex;
+    flex:1;
+}

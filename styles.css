@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 .header{
     display: flex;
@@ -12,14 +13,18 @@ body{
 .header-logo{
     color: #F9FAF8;
     font-weight: extra-bold;
-    font-size: 48px;
+    font-size: 24px;
     align-self: center;
-    padding: 20px;
+    padding: 10px;
 } 
+ul{
+    list-style: none;
+}
 .header ul{
     display: flex;
     color: #F9FAF8;
-    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .links{
     margin: 20px;
@@ -27,9 +32,101 @@ body{
 }
 .footer{
     background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
 
 .body{
     display: flex;
     flex:1;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-container{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:900;
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-container img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 36px;
+    border-style: inset;
+    border-width: 2px;
+    border-color:#bfbfbf;
+}
+.image-container ul{
+    flex:1; 
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+.image-text{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.image-container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5%;
+    border-style: inset;
+    border-width: 4px;
+    border-color: #3882F6;
+}
+.quote-container{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 150px 300px;
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:lighter;
+    font-style: italic;
+    justify-self: center;
+    align-self: center;
+}
+.quote span{
+    text-align: end;
+    font-weight: bold;
+}
+
+.call-container{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    padding: 100px;
+    margin: 50px 50px;
+    border-radius: 35px;
+}
+
+.call-container button{
+    margin: 0 20px;
+    background-color: #3882F6;
+    border-radius: 5%;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.call-item{
+    font-size: 36px;
+    color: white;
 }

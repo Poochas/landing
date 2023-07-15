@@ -4,9 +4,11 @@ body{
     min-height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
+    flex-wrap: wrap;
 }
 .header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #1F2937; 
 }
@@ -22,6 +24,7 @@ ul{
 }
 .header ul{
     display: flex;
+    flex-wrap: wrap;
     color: #F9FAF8;
     margin: 0;
     padding: 0;
@@ -40,7 +43,7 @@ ul{
 
 .body{
     display: flex;
-    flex:1;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 0;
     margin: 0;
@@ -48,6 +51,7 @@ ul{
 
 .hero-container{
     display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 48px;
@@ -67,8 +71,8 @@ ul{
     border-color:#bfbfbf;
 }
 .image-container ul{
-    flex:1; 
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     justify-content: space-around;
     /* flex-direction: column; */
@@ -90,6 +94,7 @@ ul{
 }
 .quote-container{
     display: flex;
+    flex-wrap: wrap;
     background-color: #E5E7EB;
     padding: 150px 300px;
 }
@@ -108,6 +113,7 @@ ul{
 
 .call-container{
     display: flex;
+    flex-wrap: wrap;
     background-color: #3882F6;
     justify-content: space-around;
     padding: 100px;

@@ -13,20 +13,28 @@ ul{
     justify-content: space-between; 
     align-items: center;
     background-color: #1F2937; 
-    color: #F9FAF8;
+    
     padding: 1rem;
     font-weight: 900;
     font-size: 1.5rem;
     flex-wrap: wrap; 
 }
+.header-logo{
+    width: 12rem;
+    height: auto;
 
+}
 .header ul{
     display: flex;
     padding: 0;
+
 }
- .links{
+
+.links{
      margin: 1.25rem; 
      font-size: 1.5rem; 
+     color: #F9FAF8;
+     text-decoration: none;
 }
 
 .hero-container{
@@ -128,4 +136,11 @@ ul{
     color: #F9FAF8;
     text-align: center;
     padding: 1rem;
+}
+#credits{
+    gap: 2rem;
+}
+.footer a {
+    text-decoration: none;
+    color: #F9FAF8;
 }

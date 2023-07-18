@@ -13,21 +13,16 @@ ul{
     justify-content: space-between; 
     align-items: center;
     background-color: #1F2937; 
-    
     padding: 1rem;
-    font-weight: 900;
-    font-size: 1.5rem;
     flex-wrap: wrap; 
 }
 .header-logo{
     width: 12rem;
     height: auto;
-
 }
 .header ul{
     display: flex;
     padding: 0;
-
 }
 
 .links{
